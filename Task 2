@@ -1,0 +1,59 @@
+Bug Reporting
+Bug reporting involves documenting a defect found during testing with sufficient
+details to help developers reproduce and fix the issue. A well-written bug report
+improves clarity, reduces back-and-forth questions, and speeds up resolution.
+
+Key Elements of a Good Bug Report:
+Bug ID: A unique identifier for reference.
+Title/Summary: A short, descriptive title of the issue.
+Description: Detailed explanation of the bug, including what went wrong.
+Steps to Reproduce: Precise actions to replicate the issue.
+Expected Result: What should happen if the software works correctly.
+Actual Result: What actually happened.
+Severity & Priority: Impact and urgency of the issue.
+Screenshots/Logs: Visual proof or system logs for better context.
+Environment: Details like OS, browser, app version, etc.
+Assigned To: The developer or team responsible for fixing it.
+Status: Current state in the bug lifecycle (e.g., New, Open, Fixed, Closed)
+
+Popular Bug Tracking Tools
+1. JIRA
+Developed by Atlassian, JIRA is a widely-used tool for issue and project tracking,
+particularly in Agile and Scrum environments.
+
+Features:
+Custom workflows and dashboards.
+Integration with CI/CD tools and test management systems.
+Sprint and backlog management.
+Detailed search and filter options using JQL (JIRA Query Language).
+
+Pros:
+Highly customizable and scalable.
+Suitable for large, complex projects.
+Real-time collaboration and reporting.
+Use Case: QA logs a bug in JIRA, links it to a user story or test case, assigns it to a
+developer, and tracks progress through Agile boards.
+
+
+2. Bugzilla
+An open-source bug tracking tool developed by Mozilla.
+
+Features:
+Robust permission control.
+Advanced search and reporting.
+Email notifications and bug dependencies.
+Time tracking and milestone planning.
+
+Pros:
+Free and lightweight.
+Easy to install and configure.
+Ideal for small to mid-sized teams or open-source projects.
+Use Case: A tester uses Bugzilla to file a bug, attach reproduction steps and
+screenshots, and track the resolution while collaborating with developers.
+
+Conclusion
+Effective bug reporting and tracking are critical for delivering high-quality software.
+Tools like JIRA and Bugzilla not only simplify defect management but also foster
+better team collaboration and transparency. By using these tools, teams can ensure
+that issues are prioritized, resolved, and prevented in future releases—resulting in
+more stable, reliable applications.
