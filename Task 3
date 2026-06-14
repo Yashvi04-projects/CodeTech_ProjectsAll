@@ -1,0 +1,173 @@
+Test Case Design
+Definition:
+A Test Case is a detailed, step-by-step set of actions designed to verify a specific
+function or behavior within the software. It includes inputs, execution conditions,
+expected results, and actual outcomes.
+Purpose:
+Test cases ensure:
+Precise and repeatable testing.
+Clear documentation for testers to follow.
+Traceability between requirements and testing.
+Components of a Test Case:
+Test Case ID: A unique identifier.
+Description: What the test is validating.
+Preconditions: Setup or environment conditions needed before execution.
+Test Steps: Exact steps to execute.
+Test Data: Input values required for testing.
+Expected Result: What the system should do.
+Actual Result: What the system actually did (filled post-execution).
+Status: Pass or Fail.
+Remarks/Comments: Notes or observations.
+Example:
+For the scenario “Transfer funds between accounts,” a test case might look like:
+Test Case ID: TC_001
+Description: Transfer funds with valid account numbers and sufficient balance.
+Preconditions: User is logged in; accounts exist.
+Test Steps:
+Navigate to “Transfer Funds.”
+Enter source and destination accounts.
+Enter valid amount.
+Click “Submit.”
+Expected Result: Transaction is successful, and balance updates accordingly.
+
+
+
+
+
+
+
+Test Cases/Test Scripts
+Detailed step-by-step instructions to validate specific functionalities. Each test case
+includes input data, execution steps, and expected results."
+
+Test Case Design & Test Scenario Creation 
+Creating well-structured test cases and test scenarios is a fundamental part of
+software testing. These two elements help ensure that every feature and
+functionality of a system is thoroughly tested. While they are closely related, they
+serve different purposes in the testing process and operate at different levels of
+detail.
+Test Scenario Creation
+Definition:
+A Test Scenario is a high-level description of what to test, typically derived from
+requirements or user stories. It represents a particular functionality or feature that
+needs validation.
+
+Purpose:
+Test scenarios are useful for:
+Understanding what needs to be tested from a user’s perspective.
+Covering the end-to-end flow of the application.
+Creating a broad foundation to later develop detailed test cases.
+
+Characteristics:
+Usually written in simple, business-friendly language.
+Easy to understand by both technical and non-technical stakeholders.
+Helps prioritize testing efforts, especially when time is limited.
+Example:
+For a banking application:
+Test Scenario: “Verify user can transfer funds from one account to another.”
+This scenario focuses on a business goal and leads to multiple specific test cases like
+checking different account types, transaction limits, or failure conditions
+
+
+Test Case Scenarios
+Real-world testing goes beyond textbook examples. Interviewers may give you
+practical scenarios and ask how you would write test cases or identify bugs. Here are
+a few examples:
+Login Functionality:
+Valid login with correct credentials
+Invalid login with wrong username/password
+Blank fields
+Password field masking
+Forgot password flow
+E-commerce Checkout Process:
+Add to cart, update quantity, remove item
+Apply discount codes
+Payment gateway validation (credit card, PayPal)
+Address validation
+Order confirmation page and email triggers
+Banking App – Money Transfer:
+Valid/invalid account number
+Insufficient balance
+Transaction history update
+Network failure during transaction
+Security validations (OTP, session timeout
+
+
+Postman
+
+Postman is a powerful, user-friendly tool used for manual API testing. It provides a
+GUI where users can create, send, and analyze HTTP requests without writing any
+code.
+
+Key Features:
+Send requests with various HTTP methods (GET, POST, PUT, DELETE, etc.)
+Add headers, body, query parameters, and authentication
+Save and organize API calls into collections
+Write test scripts using JavaScript for validation
+Generate detailed response logs and reports
+
+Why Use Postman:
+Great for beginners or non-developers
+Ideal for exploratory testing
+Can be integrated into CI pipelines using Newman, Postman’s CLI tool
+Example Test in Postman (Script Tab):
+pm.test("Status code is 200", function () {
+pm.response.to.have.status(200);
+})
+
+Example in Postman test script:
+javascript
+CopyEdit
+pm.test("Status is 200", () => {
+pm.response.to.have.status(200);
+});
+By validating CRUD operations and responses, testers ensure the API is robust,
+reliable, and ready for production.
+
+Mobile Testing
+Mobile testing verifies the functionality, usability, and performance of applications
+on mobile devices. It includes:
+Device Compatibility Testing
+UI/UX Validation
+Network and Battery Usage Testing
+
+Mobile App Testing 
+Mobile App Testing is the process of evaluating mobile applications for their
+functionality, usability, performance, and security across different devices,
+operating systems, and network conditions. With the rapid growth in mobile usage
+and the diversity of devices in the market, ensuring that an app delivers a smooth,
+bug-free experience to all users is a significant challenge—and mobile app testing is
+crucial in meeting that challenge.
+
+Why Mobile App Testing is Important
+Mobile apps are expected to work flawlessly under varying screen sizes, hardware
+configurations, operating systems (iOS, Android, etc.), and user environments. A poor
+user experience caused by bugs, crashes, or performance issues can lead to bad
+reviews and app uninstalls. Testing ensures the app is stable, functional, and user
+friendly across all platforms and devices.
+
+Types of Mobile Applications
+There are three primary types of mobile apps:
+1.Native Apps – Built specifically for a single platform (Android or iOS) using
+platform-specific languages (Java/Kotlin for Android, Swift/Objective-C for iOS).
+2.Web Apps – Accessed through browsers and not installed directly on the device.
+3.Hybrid Apps – A combination of native and web apps, developed using
+frameworks like React Native or Flutter.
+
+Each type requires different testing strategies and tools.
+Types of Mobile App Testing
+Functional Testing: Verifies that the app performs as expected, checking core
+features like login, navigation, and user actions.
+Usability Testing: Ensures that the app is easy to use and provides a positive user
+experience.
+Compatibility Testing: Tests the app across multiple devices, screen sizes, and
+operating system versions.
+Performance Testing: Checks app responsiveness, speed, CPU/memory usage, and
+battery consumption under load.
+Security Testing: Validates secure data storage, safe authentication, and protection
+from unauthorized access.
+Interrupt Testing: Examines how the app behaves during interruptions like incoming
+calls, SMS, or app switches.
+Installation & Update Testing: Ensures the app installs, updates, and uninstalls
+correctly without data loss or crashes.
+Network Testing: Te
