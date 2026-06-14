@@ -1,0 +1,31 @@
+Test Case Design
+Definition:
+A Test Case is a detailed, step-by-step set of actions designed to verify a specific
+function or behavior within the software. It includes inputs, execution conditions,
+expected results, and actual outcomes.
+Purpose:
+Test cases ensure:
+Precise and repeatable testing.
+Clear documentation for testers to follow.
+Traceability between requirements and testing.
+Components of a Test Case:
+Test Case ID: A unique identifier.
+Description: What the test is validating.
+Preconditions: Setup or environment conditions needed before execution.
+Test Steps: Exact steps to execute.
+Test Data: Input values required for testing.
+Expected Result: What the system should do.
+Actual Result: What the system actually did (filled post-execution).
+Status: Pass or Fail.
+Remarks/Comments: Notes or observations.
+Example:
+For the scenario “Transfer funds between accounts,” a test case might look like:
+Test Case ID: TC_001
+Description: Transfer funds with valid account numbers and sufficient balance.
+Preconditions: User is logged in; accounts exist.
+Test Steps:
+Navigate to “Transfer Funds.”
+Enter source and destination accounts.
+Enter valid amount.
+Click “Submit.”
+Expected Result: Transaction is successful, and balance updates accordingly.
