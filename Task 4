@@ -1,0 +1,48 @@
+
+Mobile Testing
+Mobile testing verifies the functionality, usability, and performance of applications
+on mobile devices. It includes:
+Device Compatibility Testing
+UI/UX Validation
+Network and Battery Usage Testing
+
+Mobile App Testing 
+Mobile App Testing is the process of evaluating mobile applications for their
+functionality, usability, performance, and security across different devices,
+operating systems, and network conditions. With the rapid growth in mobile usage
+and the diversity of devices in the market, ensuring that an app delivers a smooth,
+bug-free experience to all users is a significant challenge—and mobile app testing is
+crucial in meeting that challenge.
+
+Why Mobile App Testing is Important
+Mobile apps are expected to work flawlessly under varying screen sizes, hardware
+configurations, operating systems (iOS, Android, etc.), and user environments. A poor
+user experience caused by bugs, crashes, or performance issues can lead to bad
+reviews and app uninstalls. Testing ensures the app is stable, functional, and user
+friendly across all platforms and devices.
+
+Types of Mobile Applications
+There are three primary types of mobile apps:
+1.Native Apps – Built specifically for a single platform (Android or iOS) using
+platform-specific languages (Java/Kotlin for Android, Swift/Objective-C for iOS).
+2.Web Apps – Accessed through browsers and not installed directly on the device.
+3.Hybrid Apps – A combination of native and web apps, developed using
+frameworks like React Native or Flutter.
+
+Each type requires different testing strategies and tools.
+Types of Mobile App Testing
+Functional Testing: Verifies that the app performs as expected, checking core
+features like login, navigation, and user actions.
+Usability Testing: Ensures that the app is easy to use and provides a positive user
+experience.
+Compatibility Testing: Tests the app across multiple devices, screen sizes, and
+operating system versions.
+Performance Testing: Checks app responsiveness, speed, CPU/memory usage, and
+battery consumption under load.
+Security Testing: Validates secure data storage, safe authentication, and protection
+from unauthorized access.
+Interrupt Testing: Examines how the app behaves during interruptions like incoming
+calls, SMS, or app switches.
+Installation & Update Testing: Ensures the app installs, updates, and uninstalls
+correctly without data loss or crashes.
+Network Testing: Te
